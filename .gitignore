@@ -1,0 +1,36 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get excessive in size.
+# They all start with the word "MemoryCapture"
+/[Mm]emoryCaptures/
+
+# Asset meta data should just be deleted when moving or deleting files
+/Assets/*/*.meta
+!/Assets/
+
+# Uncomment this line if you wish to strictly track instantiated prefabs, i.e. tracks modified files, not the original prefab.
+#/[Aa]ssets/[Pp]refabs/**/*.prefab
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Aa]ndroid[Rr]esources/[Rr]awAssets/
+
+# Ignore IntelliJ/Rider IDE config
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE0001: Simplify name
+*.sublime-project
+*.sublime-workspace
